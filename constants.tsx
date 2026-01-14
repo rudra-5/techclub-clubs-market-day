@@ -1,5 +1,5 @@
 // Logo
-export const LOGO_URL = "uowd_TC_logo.png";
+export const LOGO_URL = "/uowd_TC_logo.png";
 
 // Social Links
 export const SOCIAL_LINKS = {
