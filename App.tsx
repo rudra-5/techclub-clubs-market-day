@@ -80,7 +80,7 @@ const HeroSection: React.FC = () => (
         <img
           src={LOGO_URL}
           alt="UOWD Tech Club"
-          className="h-28 w-28 md:h-36 md:w-36 mx-auto rounded-full border-4 border-lightBlue shadow-[0_0_40px_rgba(0,212,255,0.4)]"
+          className="h-28 w-28 md:h-36 md:w-36 mx-auto rounded-full border-4 border-lightBlue shadow-[0_0_40px_rgba(0,212,255,0.4)] object-cover aspect-square"
         />
       </motion.div>
 
@@ -367,7 +367,7 @@ const Footer: React.FC = () => (
   <footer className="bg-navy text-white py-8 px-4 pb-32 md:pb-8">
     <div className="max-w-4xl mx-auto text-center">
       <div className="flex items-center justify-center gap-3 mb-4">
-        <img src={LOGO_URL} alt="Tech Club" className="h-10 w-10 rounded-full border-2 border-lightBlue" />
+        <img src={LOGO_URL} alt="Tech Club" className="h-10 w-10 rounded-full border-2 border-lightBlue object-cover aspect-square" />
         <span className="font-bold text-lg">UOWD Tech Club</span>
       </div>
       <p className="text-gray-400 text-sm mb-4">
